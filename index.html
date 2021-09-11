@@ -1,9 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Amazing Title</title>
+    <title>HTML Recap</title>
 </head>
-<body>
-    
+<body style="color: white; background-color: black;">
+    <h1 style="text-align: center;">Spotless Inc.</h1>
+    <h2 style="text-align: center;">Owner: Taylor Randol</h2>
+    <nav style="text-align: center;">
+        <a href="https://millennialhomeowner.com/house-cleaning-supplies-checklist/" target="_blank" style="color: white;">Cleaning Supplies</a>
+        <a href="https://unsplash.com/s/photos/home-interior" target="_blank" style="color: white;">Home Interiors</a>
+    </nav>
+    <br />
+    <hr />
+    <h3 style="text-indent: 10mm;">Information</h3>
+    <div style="border: solid 2px white; padding: .5rem;">
+        <form>
+            <fieldset style="border: solid 2px white; padding: 2px;">
+                <p style="text-indent: 10mm;">
+                    <label>
+                        Name: <input name="name" />
+                    </label>
+                </p>
+                <p style="text-indent: 10mm;">
+                    <label>
+                        Email: <input type="email" name="email" />
+                    </label>
+                </p>
+                <p style="text-indent: 10mm;">
+                    <label>
+                        Phone: <input type="phone" name="phone" />
+                    </label>
+                </p>
+                <p style="text-indent: 10mm;">
+                    <label>
+                        Address: <input type="address" name="address" />
+                    </label>
+                </p>
+                <p style="text-indent: 10mm;">
+                    <label>
+                        City: <input name="city" />
+                    </label>
+                    <label>
+                        State: <input name="state" />
+                    </label>
+                    <label>
+                        Zip: <input name="zip" />
+                    </label>
+                </p>
+            </fieldset>
+
+            <br />
+
+            <fieldset style="border: 2px solid white; padding: 2px;">
+                <legend>Size</legend>
+                    <p>
+                        <label>
+                            Levels: <input type="number" name="levels" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Rooms: <input type="number" name="rooms" id="rooms">
+                        </label>
+                    </p>
+            </fieldset>
+
+            <br />
+
+            <fieldset>
+                <Legend>Extras</Legend>
+                    <p>
+                        <input type="checkbox" name="Extras" />
+                        <label for="Extras">Siding</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="Extras" />
+                        <label for="Extras">Porch</label>
+                    </p>
+                    <p>    
+                        <input type="checkbox" name="Extras" />
+                        <label for="Extras">Yard</label>
+                    </p>
+                    <p>    
+                        <input type="checkbox" name="Extras" />
+                        <label for="Extras">Pool</label>
+                    </p>
+                    <p>        
+                        <input type="checkbox" name="Extras" />
+                        <label for="Extras">Car</label>
+                    </p>
+            </fieldset>
+        </form>
+    </div>
+    <p>
+        Watch This Great Clean
+    </p>
+    <iframe src="https://www.youtube.com/embed/oPE5ZEVF-SY"
+        frameborder="0"
+        width="500" height="300"
+        allowfullscreen>
+    </iframe>
+    <footer style="color: white;">
+        <p>
+            Copyright © 2021 Spotless Inc.
+        </p>
+        <p>
+            <a href="#about" style="color: white;">About Us</a> -
+            <a href="#policy" style="color: white;">Policy</a> -
+            <a href="#contact" style="color: white;">Contact Us</a>
+        </p>
+    </footer>
 </body>
 </html>
